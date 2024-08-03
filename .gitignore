@@ -1,2 +1,6 @@
 squatenv/
 test_images/
+plan.md
+3.tflite
+thunder.tflite
+test_notebooks/
