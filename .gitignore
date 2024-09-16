@@ -4,3 +4,7 @@ plan.md
 3.tflite
 thunder.tflite
 test_notebooks/
+images/
+images_model_results/
+input_images/
+output_images/

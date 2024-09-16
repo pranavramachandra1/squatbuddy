@@ -19,23 +19,27 @@ KEYPOINT_DICT = {
 }
 
 # Maps bones to a matplotlib color name.
+# Maps bones to a unique matplotlib color name.
 KEYPOINT_EDGE_INDS_TO_COLOR = {
-    (0, 1): 'm',
-    (0, 2): 'c',
-    (1, 3): 'm',
-    (2, 4): 'c',
-    (0, 5): 'm',
-    (0, 6): 'c',
-    (5, 7): 'm',
-    (7, 9): 'm',
-    (6, 8): 'c',
-    (8, 10): 'c',
-    (5, 6): 'y',
-    (5, 11): 'm',
-    (6, 12): 'c',
-    (11, 12): 'y',
-    (11, 13): 'm',
-    (13, 15): 'm',
-    (12, 14): 'c',
-    (14, 16): 'c'
+    (0, 1): 'red',
+    (0, 2): 'blue',
+    (1, 3): 'green',
+    (2, 4): 'purple',
+    (0, 5): 'orange',
+    (0, 6): 'pink',
+    (5, 7): 'brown',
+    (7, 9): 'olive',
+    (6, 8): 'cyan',
+    (8, 10): 'magenta',
+    (5, 6): 'yellow',
+    (5, 11): 'lime',
+    (6, 12): 'teal',
+    (11, 12): 'indigo',
+    (11, 13): 'gold',
+    (13, 15): 'plum',
+    (12, 14): 'coral',
+    (14, 16): 'darkgreen'
 }
+
+SAMPLING_RATE = 10
+CONF_THRESHOLD = 0.5
